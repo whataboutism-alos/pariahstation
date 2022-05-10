@@ -48,22 +48,29 @@
 
 /datum/species/human/get_species_lore()
 	return list(
-		"These primate-descended creatures, originating from the mostly harmless Earth, \
-		have long-since outgrown their home and semi-benign designation. \
-		The space age has taken humans out of their solar system and into the galaxy-at-large.",
+		"While some would identify humans as gregarious or intrepid, others might prefer sinister or \
+		conniving. In reality, humanity is capable of producing all these kinds of traits, for it is \
+		a race marked by individuality and variety.",
+		
+		"Humanity in the present day is unified under the Orion Commonwealths, an interstellar nation \
+		founded through common interest in preventing a repetition of the devastation brought on by \
+		infighting in a series of multi-generational wars retroactively referred to by historians as \
+		the Intra-Human Wars.",
 
-		"In traditional human fashion, this near-record pace from terra firma to the final frontier spat \
-		in the face of other races they now shared a stage with. \
-		This included the lizards - if anyone was offended by these upstarts, it was certainly lizardkind.",
-
-		"Humanity never managed to find the kind of peace to fully unite under one banner like other species. \
-		The pencil and paper pushing of the UN bureaucrat lives on in the mosaic that is TerraGov; \
-		a composite of the nation-states that still live on in human society.",
-
-		"The human spirit of opportunity and enterprise continues on in its peak form: \
-		the hypercorporation. Acting outside of TerraGov's influence, literally and figuratively, \
-		hypercorporations buy the senate votes they need and establish territory far past the Earth Government's reach. \
-		In hypercorporation territory company policy is law, giving new meaning to \"employee termination\".",
+		"The Commonwealths' federal government is extremely selective in exercising its authority to \
+		prevent overextension, and as a result local matters fall almost exclusively to the regional \
+		commonwealth. Most citizens are aware of the bluespace communication services, tax collection, \
+		and foreign policy handled by the Orion Commonwealths' federal level, but otherwise it stays \
+		out of their lives.",
+		
+		"Humans from each commonwealth bring with them their cultures and subcultures: while two \ 
+		humans from Epsilon Indi will invariably differ in personality, they will have more in common \
+		culturally than with a human from the Union of Sibosiberian Republics, another commonwealth \
+		located on Earth’s continent of Asia.",
+		
+		"One commonality held amongst modern human communities is a value of stability. Humans will \
+		welcome change with good cause, but reaching such a point would first require overturning or \
+		convincing the most stubborn of individuals that find themselves present in every community.",
 	)
 
 /datum/species/human/create_pref_unique_perks()
