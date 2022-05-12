@@ -238,9 +238,9 @@
 						"Black" = "black_mech_suit",
 						)
 
-/obj/item/clothing/under/costume/russian_officer
-	name = "\improper Russian officer's uniform"
-	desc = "The latest in fashionable russian outfits."
+/obj/item/clothing/under/costume/sinosiberian_officer
+	name = "\improper Sinosiberian officer's uniform"
+	desc = "The latest in fashionable Sinosiberian contractor outfits, a modified rendition of a centuries-old People's Liberation Army uniform with updated regalia."
 	icon = 'icons/obj/clothing/under/security.dmi'
 	icon_state = "hostanclothes"
 	inhand_icon_state = "hostanclothes"

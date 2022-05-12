@@ -85,11 +85,11 @@
 	icon_state = "explorer"
 	resistance_flags = FIRE_PROOF
 
-/obj/item/clothing/shoes/russian
-	name = "russian boots"
+/obj/item/clothing/shoes/sinosiberian
+	name = "sinosiberian boots"
 	desc = "Comfy shoes."
-	icon_state = "rus_shoes"
-	inhand_icon_state = "rus_shoes"
+	icon_state = "sino_shoes"
+	inhand_icon_state = "sino_shoes"
 	pocket_storage_component_path = /datum/component/storage/concrete/pockets/shoes
 	lace_time = 8 SECONDS
 

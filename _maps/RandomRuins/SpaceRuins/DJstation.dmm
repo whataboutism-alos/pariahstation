@@ -153,14 +153,14 @@
 /area/ruin/space/djstation/service)
 "W" = (
 /obj/machinery/door/airlock/external/ruin{
-	name = "Ruskie DJ Station"
+	name = "Rus DJ Station"
 	},
 /obj/effect/mapping_helpers/airlock/cyclelink_helper,
 /turf/open/floor/plating,
 /area/ruin/space/djstation/service)
 "X" = (
 /obj/machinery/door/airlock/external/ruin{
-	name = "Ruskie DJ Station"
+	name = "Rus DJ Station"
 	},
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 1

@@ -70,8 +70,8 @@
 	static_lighting = FALSE
 	base_lighting_alpha = 255
 
-/area/shuttle/hunter/russian
-	name = "Russian Cargo Hauler"
+/area/shuttle/hunter/sinosiberian
+	name = "Sinosiberian Cargo Hauler"
 	requires_power = TRUE
 	static_lighting = TRUE
 

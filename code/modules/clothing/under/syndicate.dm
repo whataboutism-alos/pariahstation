@@ -70,7 +70,7 @@
 
 /obj/item/clothing/under/syndicate/soviet
 	name = "Ratnik 5 tracksuit"
-	desc = "Badly translated labels tell you to clean this in Vodka. Great for squatting in."
+	desc = "Great for squatting in. Made in Sinosiberia, you can practically feel the pride oozing off of the latter half of its origin's namesake."
 	icon_state = "trackpants"
 	can_adjust = FALSE
 	armor = list(MELEE = 10, BULLET = 0, LASER = 0,ENERGY = 0, BOMB = 0, BIO = 0, FIRE = 0, ACID = 0)
@@ -84,7 +84,7 @@
 
 /obj/item/clothing/under/syndicate/rus_army
 	name = "advanced military tracksuit"
-	desc = "Military grade tracksuits for frontline squatting."
+	desc = "Military grade tracksuits for frontline squatting. Made in Sinosiberia."
 	icon_state = "rus_under"
 	can_adjust = FALSE
 	armor = list(MELEE = 5, BULLET = 0, LASER = 0,ENERGY = 0, BOMB = 0, BIO = 0, FIRE = 0, ACID = 0)

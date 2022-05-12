@@ -113,7 +113,7 @@
 
 /obj/item/gun/ballistic/revolver/mateba
 	name = "\improper Unica 6 auto-revolver"
-	desc = "A retro high-powered autorevolver typically used by officers of the New Russia military. Uses .357 ammo."
+	desc = "A retro high-powered autorevolver sometimes used as a sidearm by officers of the Orion Commonwealths military, though it has reached the civilian market. Uses .357 ammo."
 	icon_state = "mateba"
 
 /obj/item/gun/ballistic/revolver/golden
@@ -138,7 +138,7 @@
 
 /obj/item/gun/ballistic/revolver/russian
 	name = "\improper Russian revolver"
-	desc = "A Russian-made revolver for drinking games. Uses .357 ammo, and has a mechanism requiring you to spin the chamber before each trigger pull."
+	desc = "A Sinosiberian-made revolver for drinking games. Uses .357 ammo, and has a mechanism requiring you to spin the chamber before each trigger pull."
 	icon_state = "russianrevolver"
 	mag_type = /obj/item/ammo_box/magazine/internal/cylinder/rus357
 	var/spun = FALSE

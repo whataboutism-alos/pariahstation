@@ -1,27 +1,27 @@
 /datum/bounty/item/security/recharger
 	name = "Rechargers"
-	description = "Nanotrasen military academy is conducting marksmanship exercises. They request that rechargers be shipped."
+	description = "The Nanotrasen Antipiracy Academy is conducting marksmanship exercises. They request that rechargers be shipped."
 	reward = CARGO_CRATE_VALUE * 4
 	required_count = 3
 	wanted_types = list(/obj/machinery/recharger = TRUE)
 
 /datum/bounty/item/security/pepperspray
 	name = "Pepperspray"
-	description = "We've been having a bad run of riots on Space Station 76. We could use some new pepperspray cans."
+	description = "Stowaways aboard NCS Twix have damaged vending machines and security is having difficulty apprehending them. We could use some new pepperspray cans."
 	reward = CARGO_CRATE_VALUE * 6
 	required_count = 4
 	wanted_types = list(/obj/item/reagent_containers/spray/pepper = TRUE)
 
 /datum/bounty/item/security/prison_clothes
 	name = "Prison Uniforms"
-	description = "Terragov has been unable to source any new prisoner uniforms, so if you have any spares, we'll take them off your hands."
+	description = "OFJS Alcatraz has experienced delays in prisoner uniform shipments. If you have any to spare, they can get ahold of some faster."
 	reward = CARGO_CRATE_VALUE * 4
 	required_count = 4
 	wanted_types = list(/obj/item/clothing/under/rank/prisoner = TRUE)
 
 /datum/bounty/item/security/plates
 	name = "License Plates"
-	description = "As a result of a bad clown car crash, we could use an advance on some of your prisoner's license plates."
+	description = "As a result of a bad clown spacepod crash, we could use an advance on some of your prisoner's license plates."
 	reward = CARGO_CRATE_VALUE * 2
 	required_count = 10
 	wanted_types = list(/obj/item/stack/license_plates/filled = TRUE)
@@ -34,7 +34,7 @@
 
 /datum/bounty/item/security/handcuffs
 	name = "Handcuffs"
-	description = "A large influx of escaped convicts have arrived at Central Command. Now is the perfect time to ship out spare handcuffs (or restraints)."
+	description = "A large influx of inmates have arrived at NDS Bastille, but keep trying to escape. Now is the perfect time to ship out spare handcuffs (or restraints)."
 	reward = CARGO_CRATE_VALUE * 2
 	required_count = 5
 	wanted_types = list(/obj/item/restraints/handcuffs = TRUE)

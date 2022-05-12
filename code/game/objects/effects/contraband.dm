@@ -266,7 +266,7 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/poster/contraband/random, 32)
 
 /obj/structure/sign/poster/contraband/donut_corp
 	name = "Donut Corp."
-	desc = "This poster is an unauthorized advertisement for Donut Corp."
+	desc = "This poster is an unauthorized advertisement for Donut Corp., a prominent confectionary company with holdings in many systems."
 	icon_state = "donut_corp"
 
 /obj/structure/sign/poster/contraband/eat
@@ -281,7 +281,7 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/poster/contraband/random, 32)
 
 /obj/structure/sign/poster/contraband/power
 	name = "Power"
-	desc = "A poster that positions the seat of power outside Nanotrasen."
+	desc = "A poster that advocates for sustainable singularity-based energy production. Maybe a bit dangerous?"
 	icon_state = "power"
 
 /obj/structure/sign/poster/contraband/space_cube
@@ -291,7 +291,7 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/poster/contraband/random, 32)
 
 /obj/structure/sign/poster/contraband/communist_state
 	name = "Communist State"
-	desc = "All hail the Communist party!"
+	desc = "While the poster glorifies dubious actions of regimes long buried in human history, viewers may note the small legal disclaimer started with an asterisk that states the Union of Sinosiberian Republics officially supports wealth generation through both public and private means."
 	icon_state = "communist_state"
 
 /obj/structure/sign/poster/contraband/lamarr
@@ -311,7 +311,7 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/poster/contraband/random, 32)
 
 /obj/structure/sign/poster/contraband/kss13
 	name = "Kosmicheskaya Stantsiya 13 Does Not Exist"
-	desc = "A poster mocking CentCom's denial of the existence of the derelict station near Space Station 13."
+	desc = "A poster mocking the mostly ignored disappearance of an independent station in-system whose investigation went cold."
 	icon_state = "kss13"
 
 /obj/structure/sign/poster/contraband/rebels_unite
@@ -327,12 +327,13 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/poster/contraband/random, 32)
 
 /obj/structure/sign/poster/contraband/have_a_puff
 	name = "Have a Puff"
-	desc = "Who cares about lung cancer when you're high as a kite?"
+	desc = "\"Who cares about lung cancer when you're high as a kite?\""
 	icon_state = "have_a_puff"
 
 /obj/structure/sign/poster/contraband/revolver
 	name = "Revolver"
-	desc = "Because seven shots are all you need."
+	desc = "\"Because seven shots are all you need.\""
+
 	icon_state = "revolver"
 
 /obj/structure/sign/poster/contraband/d_day_promo
@@ -341,8 +342,8 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/poster/contraband/random, 32)
 	icon_state = "d_day_promo"
 
 /obj/structure/sign/poster/contraband/syndicate_pistol
-	name = "Syndicate Pistol"
-	desc = "A poster advertising syndicate pistols as being 'classy as fuck'. It is covered in faded gang tags."
+	name = "Stechkin Ad"
+	desc = "A poster advertising the silenceable Stechkin pistol as being 'classy as fuck', describing outfits which match its style."
 	icon_state = "syndicate_pistol"
 
 /obj/structure/sign/poster/contraband/energy_swords
@@ -352,7 +353,7 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/poster/contraband/random, 32)
 
 /obj/structure/sign/poster/contraband/red_rum
 	name = "Red Rum"
-	desc = "Looking at this poster makes you want to kill."
+	desc = "Looking at this poster is meant to give the viewer murderous intent."
 	icon_state = "red_rum"
 
 /obj/structure/sign/poster/contraband/cc64k_ad
@@ -367,12 +368,12 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/poster/contraband/random, 32)
 
 /obj/structure/sign/poster/contraband/the_griffin
 	name = "The Griffin"
-	desc = "The Griffin commands you to be the worst you can be. Will you?"
+	desc = "\"The Griffin commands you to be the worst you can be. Will you?\""
 	icon_state = "the_griffin"
 
 /obj/structure/sign/poster/contraband/lizard
-	name = "Lizard"
-	desc = "This lewd poster depicts a lizard preparing to mate."
+	name = "Liz"
+	desc = "This poster depicts an Unathi in a compromising position."
 	icon_state = "lizard"
 
 /obj/structure/sign/poster/contraband/free_drone
@@ -407,7 +408,7 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/poster/contraband/random, 32)
 
 /obj/structure/sign/poster/contraband/space_cola
 	name = "Space Cola"
-	desc = "Your favorite cola, in space."
+	desc = "\"Your favorite cola, in space.\""
 	icon_state = "space_cola"
 
 /obj/structure/sign/poster/contraband/space_up
@@ -426,10 +427,11 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/poster/contraband/random, 32)
 	icon_state = "masked_men"
 
 //don't forget, you're here forever
+// ;-;
 
 /obj/structure/sign/poster/contraband/free_key
 	name = "Free Syndicate Encryption Key"
-	desc = "A poster about traitors begging for more."
+	desc = "A poster about alleged saboteurs begging their bosses for more gear."
 	icon_state = "free_key"
 
 /obj/structure/sign/poster/contraband/bountyhunters
@@ -482,7 +484,7 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/poster/contraband/random, 32)
 
 /obj/structure/sign/poster/contraband/gorlex_recruitment
 	name = "Enlist"
-	desc = "Enlist with the Gorlex Marauders today! See the galaxy, kill corpos, get paid!"
+	desc = "Enlist with the Gorlex Marauders today! See the galaxy, secure assets, get paid!" //can't *publicly acknowledge* murder unless it were against pirates in self defense, lawsuit waiting to happen. think irl morally questionable pmcs.
 	icon_state = "gorlex_recruitment"
 
 /obj/structure/sign/poster/contraband/self_ai_liberation
@@ -496,13 +498,13 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/poster/contraband/random, 32)
 	icon_state = "arc_slimes"
 
 /obj/structure/sign/poster/contraband/imperial_propaganda
-	name = "AVENGE OUR LORD, ENLIST TODAY"
-	desc = "An old Lizard Empire propaganda poster from around the time of the final Human-Lizard war. It invites the viewer to enlist in the military to avenge the strike on Atrakor and take the fight to the humans."
+	name = "Bri'ish Space Caledonia Poster"
+	desc = "An old British Commonwealth propaganda poster from the Intra-Human Wars. It invites the viewer to enlist in the military to avenge the orbital bombardment of Space Caledonia, an agrarian colony on Ross 128b."
 	icon_state = "imperial_propaganda"
 
 /obj/structure/sign/poster/contraband/soviet_propaganda
-	name = "The One Place"
-	desc = "An old Third Soviet Union propaganda poster from centuries ago. 'Escape to the one place that hasn't been corrupted by capitalism!'"
+	name = "Wheat, Red For The People"
+	desc = "An old Sinosiberian propaganda poster from centuries ago, glorifying the role of the state in feeding the people."
 	icon_state = "soviet_propaganda"
 
 /obj/structure/sign/poster/contraband/andromeda_bitters
@@ -545,7 +547,7 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/poster/official/random, 32)
 
 /obj/structure/sign/poster/official/help_others
 	name = "Help Others"
-	desc = "A poster encouraging you to help fellow crewmembers."
+	desc = "A poster encouraging you to help fellow crewmembers, whether it be getting work done faster or getting them through a rough day."
 	icon_state = "help_others"
 
 /obj/structure/sign/poster/official/build
@@ -565,12 +567,12 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/poster/official/random, 32)
 
 /obj/structure/sign/poster/official/ian
 	name = "Ian"
-	desc = "Arf arf. Yap."
+	desc = "Arf arf. Yap!"
 	icon_state = "ian"
 
 /obj/structure/sign/poster/official/obey
 	name = "Obey"
-	desc = "A poster instructing the viewer to obey authority."
+	desc = "A poster instructing the viewer to obey the station's authorities."
 	icon_state = "obey"
 
 /obj/structure/sign/poster/official/walk
@@ -669,8 +671,8 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/poster/official/random, 32)
 	icon_state = "pda_ad"
 
 /obj/structure/sign/poster/official/enlist
-	name = "Enlist" // but I thought deathsquad was never acknowledged
-	desc = "Enlist in the Nanotrasen Deathsquadron reserves today!"
+	name = "Enlist" // but I thought deathsquad was never acknowledged 
+	desc = "Enlist in the Nanotrasen Interstellar Defense Initiative today! Secure your 5% pay raise!" //don't worry it isn't!
 	icon_state = "enlist"
 
 /obj/structure/sign/poster/official/nanomichi_ad
@@ -695,7 +697,7 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/poster/official/random, 32)
 
 /obj/structure/sign/poster/official/no_erp
 	name = "No ERP"
-	desc = "This poster reminds the crew that Eroticism, Rape and Pornography are banned on Nanotrasen stations."
+	desc = "This poster reminds the crew that Eroticism and unscrupulous activities are flatly banned aboard Nanotrasen stations."
 	icon_state = "no_erp"
 
 /obj/structure/sign/poster/official/wtf_is_co2
@@ -710,7 +712,7 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/poster/official/random, 32)
 
 /obj/structure/sign/poster/official/there_is_no_gas_giant
 	name = "There Is No Gas Giant"
-	desc = "Nanotrasen has issued posters, like this one, to all stations reminding them that rumours of a gas giant are false."
+	desc = "Nanotrasen has issued posters, like this one, to all stations reminding them that rumours of a gas giant in-system are false."
 	// And yet people still believe...
 	icon_state = "there_is_no_gas_giant"
 
@@ -727,23 +729,23 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/poster/official/random, 32)
 /obj/structure/sign/poster/official/plasma_effects/examine_more(mob/user)
 	. = ..()
 	. += span_notice("<i>You browse some of the poster's information...</i>")
-	. += "\t[span_info("Plasma (scientific name Amenthium) is classified by TerraGov as a Grade 1 Health Hazard, and has significant risks to health associated with chronic exposure.")]"
+	. += "\t[span_info("Plasma (scientific name Phoron) is classified by the Orion Commonwealths as a Grade 1 Health Hazard, and has significant risks to health associated with chronic exposure.")]"
 	. += "\t[span_info("Plasma is known to cross the blood/brain barrier and bioaccumulate in brain tissue, where it begins to result in degradation of brain function. The mechanism for attack is not yet fully known, and as such no concrete preventative advice is available barring proper use of PPE (gloves + protective jumpsuit + respirator).")]"
 	. += "\t[span_info("In small doses, plasma induces confusion, short-term amnesia, and heightened aggression. These effects persist with continual exposure.")]"
 	. += "\t[span_info("In individuals with chronic exposure, severe effects have been noted. Further heightened aggression, long-term amnesia, Alzheimer's symptoms, schizophrenia, macular degeneration, aneurysms, heightened risk of stroke, and Parkinsons symptoms have all been noted.")]"
 	. += "\t[span_info("It is recommended that all individuals in unprotected contact with raw plasma regularly check with company health officials.")]"
-	. += "\t[span_info("For more information, please check with TerraGov's extranet site on Amenthium: www.terra.gov/health_and_safety/amenthium/, or our internal risk-assessment documents (document numbers #47582-b (Plasma safety data sheets) and #64210 through #64225 (PPE regulations for working with Plasma), available via NanoDoc to all employees).")]"
+	. += "\t[span_info("For more information, please check with the Commonwealths' extranet site on Phoron: fed.orion.gov/health_and_safety/phoron/, or our internal risk-assessment documents (document numbers #47582-b (Plasma safety data sheets) and #64210 through #64225 (PPE regulations for working with Plasma), available via NanoDoc to all employees).")]"
 	. += "\t[span_info("Nanotrasen: Always looking after your health.")]"
 	return .
-
-/obj/structure/sign/poster/official/terragov
-	name = "TerraGov: United for Humanity"
-	desc = "A poster depicting TerraGov's logo and motto, reminding viewers of who's looking out for humankind."
-	icon_state = "terragov"
+	
+/obj/structure/sign/poster/official/orioncommonwealths
+	name = "The Orion Commmonwealths"
+	desc = "A poster depicting its namesake flag, artistically stylized and cropped to fit on a poster."
+	icon_state = "orioncommonwealths"
 
 /obj/structure/sign/poster/official/corporate_perks_vacation
 	name = "Nanotrasen Corporate Perks: Vacation"
-	desc = "This informational poster provides information on some of the prizes available via the NT Corporate Perks program, including a two-week vacation for two on the resort world Idyllus."
+	desc = "This informational poster provides information on some of the prizes available via the NT Corporate Perks program, including a two-week vacation for two on the resort world Luyten b."
 	icon_state = "corporate_perks_vacation"
 
 //SafetyMoth Original PR at https://github.com/BeeStation/BeeStation-Hornet/pull/1747 (Also pull/1982)

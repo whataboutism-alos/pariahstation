@@ -30,9 +30,9 @@
 	SSshuttle.shuttle_loan = src
 	switch(dispatch_type)
 		if(HIJACK_SYNDIE)
-			priority_announce("Cargo: The syndicate are trying to infiltrate your station. If you let them hijack your cargo shuttle, you'll save us a headache.","CentCom Counterintelligence")
+			priority_announce("Cargo: It appears the syndicate are trying to infiltrate your station. If you let them hijack your cargo shuttle, we can justify 'defensive' arms shipments into this sector.","CentCom Counterintelligence")
 		if(RUSKY_PARTY)
-			priority_announce("Cargo: A group of angry Russians want to have a party. Can you send them your cargo shuttle then make them disappear?","CentCom Russian Outreach Program")
+			priority_announce("Cargo: A group of angry Russians want to have a party. Can you send them your cargo shuttle then make them disappear?","CentCom European Union Outreach Program")
 		if(SPIDER_GIFT)
 			priority_announce("Cargo: The Spider Clan has sent us a mysterious gift. Can we ship it to you to see what's inside?","CentCom Diplomatic Corps")
 		if(DEPARTMENT_RESUPPLY)
@@ -46,10 +46,10 @@
 			thanks_msg = "The cargo shuttle should return in five minutes."
 			bonus_points = 0
 		if(ITS_HIP_TO)
-			priority_announce("Cargo: One of our freighters carrying a bee shipment has been attacked by eco-terrorists. Can you clean up the mess for us?", "CentCom Janitorial Division")
+			priority_announce("Cargo: One of our freighters carrying a bee shipment had an incident, and it seems someone forgot to close the apiary. Can you clean up the mess for us?", "CentCom Janitorial Division")
 			bonus_points = 20000 //Toxin bees can be unbeelievably lethal
 		if(MY_GOD_JC)
-			priority_announce("Cargo: We have discovered an active Syndicate bomb near our VIP shuttle's fuel lines. If you feel up to the task, we will pay you for defusing it.", "CentCom Security Division")
+			priority_announce("Cargo: We have discovered an active  bomb near our VIP shuttle's fuel lines. It's suspected Syndicate, so reporting this to the government would be a ton of paperwork. If you feel up to the task, we will pay you for defusing it.", "CentCom Security Division")
 			thanks_msg = "Live explosive ordnance incoming via supply shuttle. Evacuating cargo bay is recommended."
 			bonus_points = 45000 //If you mess up, people die and the shuttle gets turned into swiss cheese
 
@@ -134,13 +134,13 @@
 				var/datum/supply_pack/pack = SSshuttle.supply_packs[/datum/supply_pack/service/party]
 				pack.generate(pick_n_take(empty_shuttle_turfs))
 
-				shuttle_spawns.Add(/mob/living/simple_animal/hostile/russian)
-				shuttle_spawns.Add(/mob/living/simple_animal/hostile/russian/ranged) //drops a mateba
-				shuttle_spawns.Add(/mob/living/simple_animal/hostile/bear/russian)
+				shuttle_spawns.Add(/mob/living/simple_animal/hostile/sinosiberian)
+				shuttle_spawns.Add(/mob/living/simple_animal/hostile/sinosiberian/ranged) //drops a mateba
+				shuttle_spawns.Add(/mob/living/simple_animal/hostile/bear/sinosiberian)
 				if(prob(75))
-					shuttle_spawns.Add(/mob/living/simple_animal/hostile/russian)
+					shuttle_spawns.Add(/mob/living/simple_animal/hostile/sinosiberian)
 				if(prob(50))
-					shuttle_spawns.Add(/mob/living/simple_animal/hostile/bear/russian)
+					shuttle_spawns.Add(/mob/living/simple_animal/hostile/bear/sinosiberian)
 
 			if(SPIDER_GIFT)
 				var/datum/supply_pack/pack = SSshuttle.supply_packs[/datum/supply_pack/emergency/specialops]

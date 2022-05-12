@@ -81,14 +81,14 @@
 	head = /obj/item/clothing/head/pirate
 
 
-/obj/effect/mob_spawn/corpse/human/russian
-	name = "Russian"
-	outfit = /datum/outfit/russiancorpse
+/obj/effect/mob_spawn/corpse/human/sinosiberian
+	name = "Sinosiberian Pirate"
+	outfit = /datum/outfit/sinosiberiancorpse
 	hairstyle = "Bald"
 	facial_hairstyle = "Shaved"
 
-/datum/outfit/russiancorpse
-	name = "Russian Corpse"
+/datum/outfit/sinosiberiancorpse
+	name = "Sinosiberian Pirate Corpse"
 	uniform = /obj/item/clothing/under/costume/soviet
 	shoes = /obj/item/clothing/shoes/jackboots
 	head = /obj/item/clothing/head/bearpelt
@@ -97,19 +97,19 @@
 
 
 
-/obj/effect/mob_spawn/corpse/human/russian/ranged
-	outfit = /datum/outfit/russiancorpse/ranged
+/obj/effect/mob_spawn/corpse/human/sinosiberian/ranged
+	outfit = /datum/outfit/sinosiberiancorpse/ranged
 
-/datum/outfit/russiancorpse/ranged
-	name = "Ranged Russian Corpse"
+/datum/outfit/sinosiberiancorpse/ranged
+	name = "Ranged Sinosiberian Pirate Corpse"
 	head = /obj/item/clothing/head/ushanka
 
 
-/obj/effect/mob_spawn/corpse/human/russian/ranged/trooper
-	outfit = /datum/outfit/russiancorpse/ranged/trooper
+/obj/effect/mob_spawn/corpse/human/sinosiberian/ranged/trooper
+	outfit = /datum/outfit/sinosiberiancorpse/ranged/trooper
 
-/datum/outfit/russiancorpse/ranged/trooper
-	name = "Ranged Russian Trooper Corpse"
+/datum/outfit/sinosiberiancorpse/ranged/trooper
+	name = "Ranged Sinosiberian Pirate Trooper Corpse"
 	uniform = /obj/item/clothing/under/syndicate/camo
 	suit = /obj/item/clothing/suit/armor/bulletproof
 	shoes = /obj/item/clothing/shoes/combat
@@ -119,14 +119,14 @@
 	mask = /obj/item/clothing/mask/balaclava
 
 
-/obj/effect/mob_spawn/corpse/human/russian/ranged/officer
-	name = "Russian Officer"
-	outfit = /datum/outfit/russiancorpse/officer
+/obj/effect/mob_spawn/corpse/human/sinosiberian/ranged/officer
+	name = "Sinosiberian Pirate Officer"
+	outfit = /datum/outfit/sinosiberiancorpse/officer
 
-/datum/outfit/russiancorpse/officer
-	name = "Russian Officer Corpse"
-	uniform = /obj/item/clothing/under/costume/russian_officer
-	suit = /obj/item/clothing/suit/security/officer/russian
+/datum/outfit/sinosiberiancorpse/officer
+	name = "Sinosiberian Officer Corpse"
+	uniform = /obj/item/clothing/under/costume/sinosiberian_officer
+	suit = /obj/item/clothing/suit/security/officer/sinosiberian
 	shoes = /obj/item/clothing/shoes/combat
 	ears = /obj/item/radio/headset
 	head = /obj/item/clothing/head/ushanka
@@ -168,13 +168,13 @@
 	id_trim = /datum/id_trim/centcom/corpse/private_security/tradepost_officer
 
 /obj/effect/mob_spawn/corpse/human/nanotrasenassaultsoldier
-	name = "Nanotrasen Private Security Officer"
+	name = "Nanotrasen Convoy Defense Security Officer"
 	outfit = /datum/outfit/nanotrasenassaultsoldiercorpse
 	hairstyle = "Bald"
 	facial_hairstyle = "Shaved"
 
 /datum/outfit/nanotrasenassaultsoldiercorpse
-	name = "NT Assault Officer Corpse"
+	name = "NT Convoy Defense Security Officer Corpse"
 	uniform = /obj/item/clothing/under/syndicate
 	suit = /obj/item/clothing/suit/armor/vest
 	shoes = /obj/item/clothing/shoes/combat

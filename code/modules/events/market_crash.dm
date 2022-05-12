@@ -18,9 +18,10 @@
 
 /datum/round_event/market_crash/announce(fake)
 	var/list/poss_reasons = list("the alignment of the moon and the sun",\
-		"some risky housing market outcomes",\
-		"The B.E.P.I.S. team's untimely downfall",\
-		"speculative Terragov grants backfiring",\
+		"the vending machine industry's market bubble bursting",\
+		"a system-wide currency exchange disruption",\
+		"local subsidized industries catastrophically failing to meet growth projections this quarter",\
+		"a successful federal antitrust lawsuit against a corporate monopoly forming in the vending machine industry",\
 		"greatly exaggerated reports of Nanotrasen accountancy personnel committing mass suicide")
 	var/reason = pick(poss_reasons)
 	priority_announce("Due to [reason], prices for on-station vendors will be increased for a short period.", "Nanotrasen Accounting Division")
