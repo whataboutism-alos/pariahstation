@@ -332,15 +332,15 @@
 	resistance_flags = FLAMMABLE
 	armor = list(MELEE = 20, BULLET = 10, LASER = 30, ENERGY = 40, BOMB = 15, BIO = 0, FIRE = 40, ACID = 50)
 
-/obj/item/clothing/suit/armor/vest/russian
-	name = "russian vest"
+/obj/item/clothing/suit/armor/vest/sinosiberian
+	name = "sinosiberian vest"
 	desc = "A bulletproof vest with forest camo. Good thing there's plenty of forests to hide in around here, right?"
 	icon_state = "rus_armor"
 	inhand_icon_state = "rus_armor"
 	armor = list(MELEE = 25, BULLET = 30, LASER = 0, ENERGY = 10, BOMB = 10, BIO = 0, FIRE = 20, ACID = 50, WOUND = 10)
 
-/obj/item/clothing/suit/armor/vest/russian_coat
-	name = "russian battle coat"
+/obj/item/clothing/suit/armor/vest/sinosiberian_coat
+	name = "sinosiberian battle coat"
 	desc = "Used in extremly cold fronts, made out of real bears."
 	icon_state = "rus_coat"
 	inhand_icon_state = "rus_coat"
