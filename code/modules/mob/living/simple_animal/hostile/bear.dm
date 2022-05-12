@@ -42,7 +42,7 @@
 	minbodytemp = 0
 	maxbodytemp = 1500
 
-	faction = list("russian")
+	faction = list("sinosiberian")
 
 	footstep_type = FOOTSTEP_MOB_CLAW
 
@@ -84,13 +84,13 @@
 	desc = "It's a polar bear, in space, but not actually in space."
 	weather_immunities = list(TRAIT_SNOWSTORM_IMMUNE)
 
-/mob/living/simple_animal/hostile/bear/russian
+/mob/living/simple_animal/hostile/bear/sinosiberian
 	name = "combat bear"
 	desc = "A ferocious brown bear decked out in armor plating, a red star with yellow outlining details the shoulder plating."
 	icon_state = "combatbear"
 	icon_living = "combatbear"
 	icon_dead = "combatbear_dead"
-	faction = list("russian")
+	faction = list("sinosiberian")
 	butcher_results = list(/obj/item/food/meat/slab/bear = 5, /obj/item/clothing/head/bearpelt = 1, /obj/item/bear_armor = 1)
 	melee_damage_lower = 18
 	melee_damage_upper = 20
@@ -104,7 +104,7 @@
 /obj/item/bear_armor
 	name = "pile of bear armor"
 	desc = "A scattered pile of various shaped armor pieces fitted for a bear, some duct tape, and a nail filer. Crude instructions \
-		are written on the back of one of the plates in russian. This seems like an awful idea."
+		are written on the back of one of the plates in Galactic Common with a clearly Sinosiberian dialect. This seems like an awful idea."
 	icon = 'icons/obj/items_and_weapons.dmi'
 	icon_state = "bear_armor_upgrade"
 
@@ -132,7 +132,7 @@
 	icon_living = "butterbear"
 	icon_dead = "butterbear_dead"
 	desc = "I can't believe its not a bear!"
-	faction = list("neutral", "russian")
+	faction = list("neutral", "sinosiberian")
 	obj_damage = 11
 	melee_damage_lower = 0
 	melee_damage_upper = 0
