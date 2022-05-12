@@ -394,7 +394,7 @@
 //DJSTATION
 
 /area/ruin/space/djstation
-	name = "\improper Ruskie DJ Station"
+	name = "\improper Rus DJ Station"
 	icon_state = "DJ"
 	has_gravity = STANDARD_GRAVITY
 
