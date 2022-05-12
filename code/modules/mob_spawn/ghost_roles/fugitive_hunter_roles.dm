@@ -21,39 +21,40 @@
 	log_game("[key_name(spawned_human)] was spawned as a Fugitive Hunter by an event.")
 
 /obj/effect/mob_spawn/ghost_role/human/fugitive/spacepol
-	name = "police pod"
-	desc = "A small sleeper typically used to put people to sleep for briefing on the mission."
-	prompt_name = "a spacepol officer"
-	you_are_text = "I am a member of the Spacepol!"
-	flavour_text = "Justice has arrived. We must capture those fugitives lurking on that station!"
+	name = "marshal pod"
+	desc = "A small sleeper typically used to put people to sleep for briefing on the mission. This one has a small Orion Commonwealths flag and a Federal Marshal badge stenciled on the side."
+	prompt_name = "a federal marshal"
+	you_are_text = "I am an Orion Commonwealths Federal Marshal!"
+	flavour_text = "Justice has arrived. Someone or something has irked the corpos and local commonwealth enough to call \
+		us Feds in to clean up their mess."
 	back_story = "space cop"
-	outfit = /datum/outfit/spacepol
+	outfit = /datum/outfit/marshal
 	icon = 'icons/obj/machines/sleeper.dmi'
 	icon_state = "sleeper"
 
-/obj/effect/mob_spawn/ghost_role/human/fugitive/russian
-	name = "russian pod"
-	desc = "A small sleeper typically used to make long distance travel a bit more bearable."
+/obj/effect/mob_spawn/ghost_role/human/fugitive/sinosiberian
+	name = "sinosiberian pod"
+	desc = "A small sleeper typically used to make long distance travel a bit more bearable. This one has a small flag of the USR printed on its side."
 	icon = 'icons/obj/machines/sleeper.dmi'
 	icon_state = "sleeper"
-	faction = list("russian")
-	prompt_name = "a russian"
-	you_are_text = "Ay blyat. I am a Space-Russian smuggler!"
-	flavour_text = "We were mid-flight when our cargo was beamed off our ship! Must be on station somewhere? \
-		We must \"legally\" reaquire it by any means necessary - is our property, after all!"
-	back_story = "russian"
-	outfit = /datum/outfit/russian_hunter
+	faction = list("sinosiberian")
+	prompt_name = "a sinosiberian"
+	you_are_text = "I am a Sinosiberian smuggler!"
+	flavour_text = "PIHUA!! We were mid-flight when our cargo slipped out an airlock! Must be aboard this nearby space station somewhere? \
+		We must \"legally\" reaquire it by any means necessary and without getting the government involved - is our property, after all!"
+	back_story = "sinosiberian"
+	outfit = /datum/outfit/sinosiberian_hunter
 
-/obj/effect/mob_spawn/ghost_role/human/fugitive/russian/leader
-	name = "russian commandant pod"
-	you_are_text = "Ay blyat. I am the commandant of a Space-Russian smuggler ring!"
-	outfit = /datum/outfit/russian_hunter/leader
+/obj/effect/mob_spawn/ghost_role/human/fugitive/sinosiberian/leader
+	name = "sinosiberian commandant pod"
+	you_are_text = "I am the commandant of a Sinosiberian smuggler ring!"
+	outfit = /datum/outfit/sinosiberian_hunter/leader
 
 /obj/effect/mob_spawn/ghost_role/human/fugitive/bounty
 	name = "bounty hunter pod"
 	prompt_name = "a bounty hunter"
 	you_are_text = "I'm a bounty hunter."
-	flavour_text = "We got a new bounty on some fugitives, dead or alive."
+	flavour_text = "We got a new bounty on some fugitives from the sector sheriff; dead or alive."
 	back_story = "bounty hunters"
 	desc = "A small sleeper typically used to make long distance travel a bit more bearable."
 	icon = 'icons/obj/machines/sleeper.dmi'
