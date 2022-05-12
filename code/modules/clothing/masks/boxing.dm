@@ -90,7 +90,7 @@
 
 /obj/item/clothing/mask/russian_balaclava
 	name = "russian balaclava"
-	desc = "Protects your face from snow."
+	desc = "Traditional Siberian military garment from the USR. Protects your face from snow."
 	icon_state = "rus_balaclava"
 	inhand_icon_state = "rus_balaclava"
 	flags_inv = HIDEFACE|HIDEHAIR|HIDEFACIALHAIR|HIDESNOUT
