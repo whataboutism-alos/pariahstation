@@ -1,6 +1,6 @@
 /mob/living/simple_animal/hostile/sinosiberian
 	name = "Sinosiberian Pirate"
-	desc = "Never able to accept the peacetime brought on by the Orion Commonwealths' inception, a percentage of dogmatic Sinosiberian naval personnel fled to deep space aboard ships with likeminded crews. \Now their descendents terrorize the outer systems in acts of piracy."
+	desc = "Never able to accept the peacetime brought on by the Orion Commonwealths' inception, a percentage of dogmatic Sinosiberian naval personnel fled to deep space aboard ships with likeminded crews. \n Now their descendents terrorize the outer systems in acts of piracy."
 	icon = 'icons/mob/simple_human.dmi'
 	icon_state = "sinosiberianmelee"
 	icon_living = "sinosiberianmelee"
