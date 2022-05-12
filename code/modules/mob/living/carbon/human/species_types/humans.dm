@@ -63,7 +63,7 @@
 		and foreign policy handled by the Orion Commonwealths' federal level, but otherwise it stays \
 		out of their lives.",
 		
-		"Humans from each commonwealth bring with them their cultures and subcultures: while two \ 
+		"Humans from each commonwealth bring with them their cultures and subcultures: while two \
 		humans from Epsilon Indi will invariably differ in personality, they will have more in common \
 		culturally than with a human from the Union of Sibosiberian Republics, another commonwealth \
 		located on Earth’s continent of Asia.",
