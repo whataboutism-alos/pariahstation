@@ -134,13 +134,13 @@
 				var/datum/supply_pack/pack = SSshuttle.supply_packs[/datum/supply_pack/service/party]
 				pack.generate(pick_n_take(empty_shuttle_turfs))
 
-				shuttle_spawns.Add(/mob/living/simple_animal/hostile/russian)
-				shuttle_spawns.Add(/mob/living/simple_animal/hostile/russian/ranged) //drops a mateba
-				shuttle_spawns.Add(/mob/living/simple_animal/hostile/bear/russian)
+				shuttle_spawns.Add(/mob/living/simple_animal/hostile/sinosiberian)
+				shuttle_spawns.Add(/mob/living/simple_animal/hostile/sinosiberian/ranged) //drops a mateba
+				shuttle_spawns.Add(/mob/living/simple_animal/hostile/bear/sinosiberian)
 				if(prob(75))
-					shuttle_spawns.Add(/mob/living/simple_animal/hostile/russian)
+					shuttle_spawns.Add(/mob/living/simple_animal/hostile/sinosiberian)
 				if(prob(50))
-					shuttle_spawns.Add(/mob/living/simple_animal/hostile/bear/russian)
+					shuttle_spawns.Add(/mob/living/simple_animal/hostile/bear/sinosiberian)
 
 			if(SPIDER_GIFT)
 				var/datum/supply_pack/pack = SSshuttle.supply_packs[/datum/supply_pack/emergency/specialops]
