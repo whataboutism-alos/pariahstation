@@ -342,9 +342,10 @@
 	flags_cover = HEADCOVERSEYES
 	flags_inv = HIDEMASK|HIDEEARS|HIDEEYES|HIDEFACE|HIDEHAIR|HIDEFACIALHAIR|HIDESNOUT
 
-/obj/item/clothing/suit/security/officer/russian
-	name = "\improper Russian officer's jacket"
-	desc = "This jacket is for those special occasions when a russian officer isn't required to wear their armor."
+/obj/item/clothing/suit/security/officer/sinosiberian
+	name = "\improper sinosiberian officer's jacket"
+	desc = "This jacket is for those special occasions when a Sinosiberian People's Defense Force officer isn't required to wear their armor.\
+			How did this end up so far from Earth?"
 	icon_state = "officertanjacket"
 	inhand_icon_state = "officertanjacket"
 	body_parts_covered = CHEST|ARMS
